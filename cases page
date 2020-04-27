@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>My Cases</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rokkitt&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <a href="index.html" class="header-brand">mmtuts</a>
+        <nav>
+            <ul>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="about.html">About me</a></li>
+                <li><a href="contact.html">Contacts</a></li>
+            </ul>
+            <a href="cases.html" class="header-cases">Cases</a>
+        </nav>
+    </header>
+    <main>
+      <section class="cases-links">
+        <h2>Cases</h2>
+        <div class="wrapper">
+        <a href="case1.html">
+            <div class="cases-link">
+                <p>Case 1</p>
+            </div>
+        </a>
+        <a href="case1.html">
+            <div class="cases-link">
+                <p>Case 2</p>
+            </div>
+        </a>
+        <a href="case1.html">
+            <div class="cases-link">
+                <p>Case 3</p>
+            </div>
+        </a>
+        <a href="case1.html">
+            <div class="cases-link">
+                <p>Case 4</p>
+            </div>
+        </a>
+        <a href="case1.html">
+            <div class="cases-link">
+                <p>Case 5</p>
+            </div>
+        </a>
+        <a href="case1.html">
+            <div class="cases-link">
+                <p>Case 6</p>
+            </div>
+        </a>
+        <a href="case1.html">
+            <div class="cases-link">
+                <p>Case 7</p>
+            </div>
+        </a>
+        <a href="case1.html">
+            <div class="cases-link">
+                <p>Case 8</p>
+            </div>
+        </a>
+        
+        
+    </div>
+      </section>  
+    </main>
+    <div class="wrapper">
+    <footer>
+        <ul class="footer-list1">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Cases</a></li>
+            <li><a href="#">Potfolio</a></li>
+            <li><a href="#">About me</a></li>
+            <li><a href="#">Contacts</a></li>
+        </ul>
+        <ul class="footer-list2">
+            <li><p>Latest cases</p></li>
+            <li><a href="#">Microsoft</a></li>
+            <li><a href="#">Google</a></li>
+            <li><a href="#">Amazon</a></li>
+            <li><a href="#">Flipkart</a></li>
+        </ul>
+        <div class="footer-sm">
+            <a href="#">
+                <img src="whatsapp.jpg" alt="whatsapp icon">
+                <img src="facebook.jpg" alt="facebook icon">
+            </a>
+        </div>
+</body>
+</html>
