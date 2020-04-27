@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>My Cases</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rokkitt&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <a href="index.html" class="header-brand">mmtuts</a>
+        <nav>
+            <ul>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="about.html">About me</a></li>
+                <li><a href="contact.html">Contacts</a></li>
+            </ul>
+            <a href="cases.html" class="header-cases">Cases</a>
+        </nav>
+    </header>
+    <main>
+      <section class="case-vid">
+        <h2>BELLA</h2>
+        <div>
+            <video src="dbms_HD_720p.mp4" poster="triggers.jpg" controls></video>
+        </div>
+        <article>
+            <h3>What are Triggers?</h3>
+            <p>A trigger is a procedure (code segment) that is executed automatically when some specific events occur in a table/view of a database. Among its other uses, triggers are mainly used for maintaining integrity in a database. Triggers are also used for enforcing business rules, auditing changes in the database and replicating data. Most common triggers are Data Manipulation Language (DML) triggers that are triggered when data is manipulated. Some database systems support non-data triggers, which are triggered when Data Definition Language (DDL) events occur. Some examples are triggers that are fired when tables are created, during commit or rollback operations occur, etc. These triggers can be especially used for auditing. Oracle database system supports schema level triggers (i.e. triggers fired when database schemas are modified) such as After Creation, Before Alter, After Alter, Before Drop, After Drop, etc. The four main types of triggers supported by Oracle are Row Level triggers, Column Level triggers, Each Row Type triggers and For Each Statement Type triggers.</p>
+        </article>
+      </section>  
+    </main>
+    <div class="wrapper">
+    <footer>
+        <ul class="footer-list1">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Cases</a></li>
+            <li><a href="#">Potfolio</a></li>
+            <li><a href="#">About me</a></li>
+            <li><a href="#">Contacts</a></li>
+        </ul>
+        <ul class="footer-list2">
+            <li><p>Latest cases</p></li>
+            <li><a href="#">Microsoft</a></li>
+            <li><a href="#">Google</a></li>
+            <li><a href="#">Amazon</a></li>
+            <li><a href="#">Flipkart</a></li>
+        </ul>
+        <div class="footer-sm">
+            <a href="#">
+                <img src="whatsapp.jpg" alt="whatsapp icon">
+                <img src="facebook.jpg" alt="facebook icon">
+            </a>
+        </div>
+</body>
+</html>
